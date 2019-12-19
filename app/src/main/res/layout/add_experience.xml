@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/add"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp" />
+
+
+        <EditText
+            android:id="@+id/edcompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Company Name"
+            android:inputType="textCapWords"
+            android:textColor="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/edcompanyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Company Description"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="8"
+            android:textColor="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/edjobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter JobTitle"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="8"
+            android:textColor="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/edjobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Job Description"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="8"
+            android:textColor="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/edstartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:hint="Enter Start Date"
+            android:inputType="textPersonName"
+            android:maxLines="8"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/edendDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:hint="Enter End Date"
+            android:inputType="textPersonName"
+            android:maxLines="8"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/edtasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Tasks performed"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="8"
+            android:textColor="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/edachievements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Achievements"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="8"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/edtechnologiesUsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Technologies Used"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="8"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btAddUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight=".5"
+                android:background="@drawable/btn_background"
+                android:text="@string/add"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight=".5"
+                android:background="@drawable/btn_background"
+                android:text="@string/cancel"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

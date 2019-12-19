@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/tvTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_toStartOf="@+id/btDelete"-->
+<!--        android:layout_toLeftOf="@+id/btDelete"-->
+<!--        android:text="Govind"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="18sp"-->
+<!--        tools:ignore="HardcodedText" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle"
+            android:layout_toStartOf="@+id/btDelete"
+            android:layout_toLeftOf="@+id/btDelete"
+            android:maxLines="3"
+            android:text="Company Name"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvstartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvYear"
+                android:layout_toStartOf="@+id/btDelete"
+                android:layout_toLeftOf="@+id/btDelete"
+                android:maxLines="3"
+                android:text="Start Date"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="-" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvendDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDesc"
+                android:layout_toStartOf="@+id/btDelete"
+                android:layout_toLeftOf="@+id/btDelete"
+                android:text="End Date"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCompanyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle"
+            android:layout_toStartOf="@+id/btDelete"
+            android:layout_toLeftOf="@+id/btDelete"
+            android:maxLines="3"
+            android:text="Company Description"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvjobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvYear"
+            android:layout_toStartOf="@+id/btDelete"
+            android:layout_toLeftOf="@+id/btDelete"
+            android:maxLines="3"
+            android:text="Job Title"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvjobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDesc"
+            android:layout_toStartOf="@+id/btDelete"
+            android:layout_toLeftOf="@+id/btDelete"
+            android:text="Job Description"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvtaskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|left"
+            android:padding="0dp"
+            android:text="Tasks Performed"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvtasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDesc"
+            android:layout_toStartOf="@+id/btDelete"
+            android:layout_toLeftOf="@+id/btDelete"
+            android:text="Tasks Performed"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvachievTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|left"
+            android:padding="0dp"
+            android:text="Achievemnts/Awards"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvachievements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvYear"
+            android:layout_toStartOf="@+id/btDelete"
+            android:layout_toLeftOf="@+id/btDelete"
+            android:maxLines="3"
+            android:text="Achivements"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/tvtechTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|left"
+            android:padding="0dp"
+            android:text="Technology Used"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvtechnologiesUsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDesc"
+            android:layout_toStartOf="@+id/btDelete"
+            android:layout_toLeftOf="@+id/btDelete"
+            android:text="Technology Used"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:src="@drawable/ic_delete"
+        android:tint="@color/white" />
+</RelativeLayout>

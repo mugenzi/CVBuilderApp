@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cname"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:hint="Enter Name">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobile"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:hint="Enter Mobile Number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:hint="Enter Email"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:id="@+id/bt1"
+        android:onClick="addContact"/>
+
+</LinearLayout>

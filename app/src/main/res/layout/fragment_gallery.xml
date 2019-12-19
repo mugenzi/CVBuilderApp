@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/contactLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/input_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/input_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_phone"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/input_street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/input_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/input_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/input_zipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Zip Code"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/input_linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Linkedin Account"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/addContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:onClick="addContact"
+            android:textColor="@color/buttonText"
+            android:textSize="20sp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/pdfButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/buttonBackground"-->
+<!--            android:text="SAVE PDF"-->
+<!--            android:textColor="@color/buttonText"-->
+<!--            android:textSize="20sp" />-->
+
+    </LinearLayout>
+</ScrollView>

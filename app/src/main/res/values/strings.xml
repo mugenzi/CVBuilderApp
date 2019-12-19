@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">CVBuilderApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Contact</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_slideshow">Experience</string>
+    <string name="menu_tools">Preview</string>
+    <string name="menu_experience">Academic Project</string>
+    <string name="menu_education">Education</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="content_description_open_drawer">Open Drawer</string>
+    <string name="content_description_close_drawer">Closed Drawer</string>
+
+    <string name="steps">Steps</string>
+
+    <string name="navigation_personal_info">Personal Info</string>
+    <string name="navigation_essentials">Essentials</string>
+    <string name="navigation_projects">Projects</string>
+    <string name="navigation_education">Schools</string>
+    <string name="navigation_experience">Experience</string>
+    <string name="navigation_awards">Awards</string>
+    <string name="navigation_preview">Preview</string>
+
+    <string name="action_add">Add</string>
+    <string name="action_save">Save</string>
+    <string name="action_print">Print</string>
+
+    <string name="hint_project_name">Project Name</string>
+    <string name="hint_detail">Detail</string>
+    <string name="hint_subtitle">Subtitle</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_company_name">Company Name</string>
+    <string name="hint_location">Location</string>
+    <string name="hint_job_title">Job Title</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_address_line1">Address line1</string>
+    <string name="hint_address_line2">Address line2</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_school_name">School Name</string>
+    <string name="hint_degree">Degree</string>
+    <string name="hint_skills">Skills</string>
+    <string name="hint_languages">Languages</string>
+
+    <string name="message_empty_list">This is empty list</string>
+
+    <string name="symbol_separator" translatable="false">ㅡ</string>
+    <string name="education">Education</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="title">School Name</string>
+    <string name="description">Degree</string>
+    <string name="lbl_new_todo_title">Education Form</string>
+
+    <string name="activity_title_home">Education</string>
+    <string name="activity_title_experience">Experience</string>
+    <string name="activity_title_ac">Academic Project</string>
+    <string name="msg_no_educations">No Education found!</string>
+    <string name="lbl_new_experience_title">New Experience</string>
+    <string name="lbl_new_ac_title">New Academic Project</string>
+    <string name="lbl_edit_todo_title">Edit Education</string>
+    <string name="lbl_edit_experience_title">Edit Experience</string>
+    <string name="lbl_edit_ac_title">Edit Academic Project</string>
+    <string name="hint_enter_education">Enter your education!</string>
+    <string name="about">About</string>
+</resources>
